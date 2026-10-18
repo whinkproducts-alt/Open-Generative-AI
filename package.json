@@ -1,6 +1,6 @@
 {
   "name": "open-generative-ai",
-  "description": "Open-source alternative to HF AI — AI image, video, cinema and lip sync studio",
+  "description": "Open-source alternative to HF AI \u2014 AI image, video, cinema and lip sync studio",
   "homepage": "https://github.com/Anil-matcha/Open-Generative-AI",
   "private": true,
   "version": "2.0.0",
@@ -12,7 +12,7 @@
     "packages/Open-AI-Design-Agent/packages/design-agent"
   ],
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --hostname 127.0.0.1",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
@@ -39,7 +39,7 @@
   "build": {
     "appId": "ai.generative.open",
     "productName": "Open Generative AI",
-    "copyright": "Copyright © 2025",
+    "copyright": "Copyright \u00a9 2025",
     "directories": {
       "output": "release"
     },
@@ -116,8 +116,8 @@
   },
   "dependencies": {
     "ai-agent": "file:./packages/Open-Poe-AI/packages/agents",
-    "axios": "^1.7.0",
-    "next": "^15.0.0",
+    "axios": "1.8.2",
+    "next": "15.3.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-hot-toast": "^2.4.1",
@@ -129,7 +129,7 @@
     "@eslint/eslintrc": "^3",
     "@tailwindcss/vite": "^4.1.18",
     "autoprefixer": "^10.4.24",
-    "electron": "^33.4.11",
+    "electron": "35.7.5",
     "electron-builder": "^25.1.8",
     "eslint": "^9",
     "eslint-config-next": "^15.0.0",

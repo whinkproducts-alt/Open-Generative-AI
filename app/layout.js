@@ -1,12 +1,9 @@
 import './globals.css';
-import { Inter } from "next/font/google";
+// next/font/google blocked in container — skip
 import { headers } from 'next/headers';
 import { getLocaleConfig } from '@/lib/locales';
 
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
+const inter = { variable: "--font-inter", className: "" };
 
 export const metadata = {
   title: 'Open Generative AI — Free AI Image & Video Studio',
